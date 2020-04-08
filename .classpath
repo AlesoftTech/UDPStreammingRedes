@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_241"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="lib/jna-5.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jna-platform-5.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/vlcj-4.1.0-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/vlcj-4.1.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/vlcj-4.1.0-test-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/vlcj-4.1.0-tests.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/vlcj-4.1.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://caprica.github.io/vlcj/javadoc/4.1.0/index.html"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/vlcj-natives-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Alejandro/Desktop/UDPsockets-stream-server-master/lib/jna-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Alejandro/Desktop/UDPsockets-stream-server-master/lib/jna-platform-5.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Alejandro/Desktop/UDPsockets-stream-server-master/lib/vlcj-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Alejandro/Desktop/UDPsockets-stream-server-master/lib/vlcj-4.1.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Alejandro/Desktop/UDPsockets-stream-server-master/lib/vlcj-4.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Alejandro/Desktop/UDPsockets-stream-server-master/lib/vlcj-4.1.0-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Alejandro/Desktop/UDPsockets-stream-server-master/lib/vlcj-4.1.0-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Alejandro/Desktop/UDPsockets-stream-server-master/lib/vlcj-natives-4.1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
