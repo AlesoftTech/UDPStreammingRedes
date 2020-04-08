@@ -1,14 +1,12 @@
-# UDPsockets-stream-server
-El siguiente es un servidor en Java que realiza Streaming de archivos de vídeo a través de RTP y haciendo uso de la librería de [vlcj](https://github.com/caprica/vlcj).
+El Servidor utiliza la librería vlcj para realizar el streaming via RTP. 
+https://github.com/caprica/vlcj
 
-## Requisitos Previos
-* Es requisito que el servidor se inicie únicamente con 1 vídeo, debido a que cuando hay más de 1 tiende a existir un error. Este error es porque las librerías
-de Vlcj no contienen algunos de las instanciaciones de forma sincrónica y por ende puede llegar a fallar.
-* Es imperativo que el dispositivo donde se corra el servidor tenga instalado [VLC](https://www.videolan.org/vlc/download-windows.es.html) la versión de 32-bits, debido 
-a que si este no es instalado, no podrá funcionar el programa a pesar de que las librerías estén referenciadas y en local.
-* Es necesario que el jre con el que se esté corriendo el proyecto sea el jre de java de 32-bits. Sin esto, las librerías de vlcj no se cargarán correctamente y saldrán errores.
+## Rquerimientos de computo
 
-## Funcionamiento
-El servidor inicia a funcionar, simplemente con ejecutarlo en Eclipse o bien sea generando un .jar y corriendolo. Este lee los vídeos de la carpeta 
-`./data` **SE DEBE CREAR DICHA CARPETA Y COLOCAR 1 VÍDEO EN ELLA** y con esto comienza a realizar su streaming cada uno en un canal de multicast distinto. Los canales se envían al cliente y este elige a 
-cuál conectarse para recibir el streaming en tiempo real.
+*El computador debe contar con VLC de 32-bits (solo funciona en 32-bits)
+* El JRE debe ser el de 32 bits ya que el de 64 bits no es compatible con vlcj.
+
+## Pasos para ejecución 
+*Ejecutar la clase Server.java, seguir interface visual 
+*si por algún motivo no encuetra la librería local el compilador,  no funcionaría la autoreproducción y la autoconfiguración de los clientes, de ser así: abrir VLC -> Medio -> Abrir ubicación de red -> introducir la siguiente uri "rtp://238.0.0.1:8080" -> reproducir
+
